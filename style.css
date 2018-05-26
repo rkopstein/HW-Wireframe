@@ -1,0 +1,111 @@
+/**
+ * Float Layout Activity
+ **/
+
+ * {
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  body {
+      font-family:  Arial, Helvetica, sans-serif;
+      color: #777;
+      background: #777;
+      width: 960px;
+      font-size: 18px
+  }
+  
+  #full {
+    clear: both;
+    background-color: #777;
+    overflow: auto;
+    width: 100%;
+}
+
+header {
+    padding: 20px;
+    margin-bottom: 15px;
+    color: #777;
+    background: #ebebeb;
+    /* box-align: center; */
+    height: 70px;
+    width: 100%;
+  
+}
+
+#nav {
+    padding: 20px;
+    margin-bottom: 15px;
+    color: #777;
+    background: #ebebeb;  
+    height: 70px;
+    width: 100%;
+}
+
+#section {
+    background: #ebebeb;
+    color: #777;
+    float:left;
+    Margin-bottom:15px;
+    width: 56%;
+    height: 300px;
+    border: 1px solid #eee;
+    padding: 20px;
+    /*margin-left: 40px*/
+
+}
+
+#article {
+    background: #777;
+    color: #ebebeb;
+    width: 100%;
+    height: 85%;
+    margin-top: 25px;
+    padding: 15px;
+    /* position: center; */
+    
+    
+}
+
+#h1 {
+    background: #ebebeb;
+    color: #777;
+    width: 468px;
+    height: 75px;
+    margin-top:12px;
+    margin-bottom: 8px;
+    margin-right: 15px;
+    /* Margin-left: 5px; */
+    Padding:30px;
+}
+
+#P {
+    background: #ebebeb;
+    color: #777;
+    height: 75px;
+    width: 468px;
+    /* margin-top:40px; */
+    margin-bottom: 5px;
+    margin-right: 15px;
+    /* Margin-left: 5px; */
+    Padding:25px;
+}
+
+#aside {
+    background: #ebebeb;
+    width: 40%;
+    height: 300px;
+    color: #777;
+    /* border: 1px solid #eee; */
+    padding: 20px;
+    float: right;
+    margin-left: 30px;
+    Margin-bottom:15px;
+}
+  
+footer {
+    clear: both;
+    padding: 20px;
+    background: #ebebeb;
+    color: #777;
+}
